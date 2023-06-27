@@ -1,0 +1,51 @@
+body {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.make-height {
+    height: 2000px;
+}
+
+.tab-menu-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.tab-menu-wrapper.sticky {
+    position: fixed;
+}
+
+.tab-menu {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.tab-menu li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.tab-menu li a.active {
+    color: red;
+}
+
+#footer {
+    height: 300px;
+}
+
+#section1 {
+    margin-top: 100px;
+}

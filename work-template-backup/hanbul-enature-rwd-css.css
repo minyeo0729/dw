@@ -1,0 +1,1028 @@
+@charset "utf-8";
+/*
+ * File       : rwd-brand.css
+ * Author     : STUDIO-JT (HEE)
+ * Guideline  : JTstyle.1.1
+ *
+ * Dependency : css/reset.css
+ *              css/jt-strap.css
+ *
+ * SUMMARY:
+ * 1) 1800px
+ */
+
+
+
+/* **************************************** *
+ * 1754px
+ * **************************************** */
+@media (max-width: 1754px){
+
+	/* Solution/About section */
+	.brand_solution_slideshow_content p {padding-right: 86px;}
+	.brand_solution_slideshow_content p br {display: none;}
+	.brand_solution_slideshow_prev {left: -100px;}
+	.brand_solution_slideshow_next {right: -100px;}
+
+	/* ITS SKIN */
+	.section_brand_itsskin_01_img .lazy_img {padding-top: 105.6%;}
+	.section_brand_itsskin_02_txt {padding-right: 45px;}
+	.section_brand_itsskin_02_img {padding-left: 45px;}
+
+	/* FLAMEL */
+	.section_brand_flamel_01 p br {display: none;}
+	.section_brand_flamel_01_bg > img {max-width: 400px;}
+	.section_brand_flamel_01_img .lazy_img {padding-top: 105.6%;}
+	/* .section_brand_flamel_02 p br {display: none;} */
+	.section_brand_flamel_02_txt {padding-right: 45px;}
+	.section_brand_flamel_02_img {padding-left: 45px;}
+
+	/* E NATURE */
+	.section_brand_enature_02_txt {padding-right: 70px;}
+	.section_brand_enature_02_txt_inner {padding-left: 70px;}
+	.section_brand_enature_02_img_picto {bottom: -9%;}
+	.section_brand_enature_03_img .lazy_img {margin-left: 70px;}
+	.section_brand_enature_step { height: 100%; background: #fff;}
+
+	/* CHASIN RABBITS */
+	.section_brand_chasin_rabbits_01_img .lazy_img {padding-top: 105.6%;}
+	.section_brand_chasin_rabbits_02_txt {padding-right: 45px;}
+	.section_brand_chasin_rabbits_02_img {padding-left: 45px;}
+
+	/* ICS */
+	.section_brand_ics_01_img .lazy_img {padding-top: 111.3%;}
+	.section_brand_ics_01 p br {display: none;}
+	.section_brand_ics_02_txt {padding-right: 45px;}
+	.section_brand_ics_02_img {padding-left: 45px;}
+
+	/* NEOPHARM */
+	.brand_neopharm_content_title {padding-left: 70px}
+	.brand_neopharm_content_txt b {display: block;}
+	.brand_neopharm_content_txt p br {display: none;}
+
+	/* ATOPALM */
+	.section_brand_atopalm_01_img .lazy_img {padding-top:108%;}
+	.section_brand_atopalm_01 p br {display: none;}
+
+	/* REAL BARRIER */
+	.section_brand_real_barrier_01_img .lazy_img {padding-top:108%;}
+	.section_brand_real_barrier_01 p br {display: none;}
+
+	/* DERMA B */
+    .section_brand_derma_b_step { height: 100%; background: #fff;}
+	.section_brand_derma_b_step_content p br {display: none;}
+
+	/* ZEROID */
+	.section_brand_zeroid_step { height: 100%; background: #fff;}
+	.section_brand_zeroid_step_content p br {display: none;}
+
+}
+
+
+
+/* **************************************** *
+ * 1600px
+ * **************************************** */
+@media (max-width: 1600px){
+	/* NEOPHARM */
+    .brand_neopharm_banner_logo {max-width: 28%;left: 7%;}
+}
+
+
+
+/* **************************************** *
+ * 1440px
+ * **************************************** */
+@media (max-width: 1440px){
+
+	/* E NATURE */
+	.section_brand_enature_step_content p br {display: none;}
+
+	/* real barrier */
+	.section_brand_real_barrier_01 h2,
+	.section_brand_real_barrier_02 h2 {font-size: 48px;}
+}
+
+
+
+/* **************************************** *
+ * 1380px
+ * **************************************** */
+@media (max-width: 1380px){
+
+	/* Solution/About section */
+	.section_brand_solution h2 {font-size: 50px;}
+	.brand_solution_slideshow_prev {left: -65px;}
+	.brand_solution_slideshow_next {right: -65px;}
+	.brand_solution_slideshow_arrow {width: 50px; height: 50px;}
+	.brand_solution_slideshow_arrow:before {font-size: 48px;}
+	.brand_solution_slideshow_content h3 {font-size: 32px;}
+	.brand_solution_slideshow_content h3, .brand_solution_slideshow_content p {padding: 43px 40px;}
+	.sub_brand_enature .brand_solution_slideshow_content h3 span b {padding-right: 22px;}
+	.sub_brand_enature .brand_solution_slideshow_content h3 span b:after {top: 3px;font-size:26px;}
+	.brand_solution_slideshow_content p {padding-left: 0}
+
+	.brand_solution_slideshow_content h3 {padding-left: 60px; width: 45%;}
+	.brand_solution_slideshow_content p {width: 65%; padding-right: 60px;}
+
+	/* Instagram section */
+	.brand_insta h2 {font-size: 50px;}
+
+	/* ITS SKIN */
+	.section_brand_itsskin_01_txt_inner {margin-left: 90px;}
+	.section_brand_itsskin_01_img .lazy_img {padding-top: 111.3%;}
+    .section_brand_itsskin_01 {margin-bottom: 280px;}
+	.section_brand_itsskin_01_bg > img {max-width: 740px;}
+	.section_brand_itsskin_01 p br {display: none;}
+	.section_brand_itsskin_02 p br {display: none;}
+
+	/* FLAMEL */
+    .section_brand_flamel_01 {margin-bottom: 220px;}
+	.section_brand_flamel_01_txt_inner {margin-left: 90px;}
+	.section_brand_flamel_01_img .lazy_img {padding-top: 111.3%;}
+	.section_brand_flamel_01_bg > img {max-width: 350px;}
+	.section_brand_flamel_02 p br {display: none;}
+	/* .sub_brand_flamel .brand_solution_slideshow_content h3 { background-size: 40px; background-position: 60px 65px; vertical-align: top; padding: 63px 20px 69px; padding-left: 60px; width: 48%;} */
+	html.ie11 .sub_brand_flamel .brand_solution_slideshow_content h3 {background-size: 40px;}
+	/* .sub_brand_flamel .brand_solution_slideshow_content p {vertical-align: top; vertical-align: top; padding: 67px 20px 65px; padding-left: 0; width: 52% } */
+	.section_brand_flamel_sub_title_01,
+	.section_brand_flamel_sub_title_02 {margin-bottom: 19px;}
+	.section_brand_flamel_sub_title_01 img:nth-child(1) {height:34px;margin-bottom: 22px;}
+	.section_brand_flamel_sub_title_01 img:nth-child(2),
+	.section_brand_flamel_sub_title_01 img:nth-child(3),
+	.section_brand_flamel_sub_title_02 img:nth-child(2) {height:19px;}
+	.section_brand_flamel_sub_title_02 img:nth-child(1) {margin-bottom: 10px;height: 45px;}
+
+	/* E NATURE */
+	.section_brand_enature_step {margin: 0 10px;}
+	.section_brand_enature_02_txt_inner {padding-left: 0; padding-right: 45px;}
+	.section_brand_enature_03_txt_inner {margin-left: 45px;}
+	.section_brand_enature_02_img figure {padding-top: 104%;}
+	.section_brand_enature_03_img .lazy_img {margin-left: 0; padding-top: 104.2%;}
+
+	/* CHASIN RABBITS */
+	.section_brand_chasin_rabbits_01_txt_inner {margin-left: 90px;}
+	.section_brand_chasin_rabbits_01_img .lazy_img {padding-top: 111.3%;}
+    .section_brand_chasin_rabbits_01 {margin-bottom: 280px;}
+	.section_brand_chasin_rabbits_01_bg > img {max-width: 740px;}
+	.section_brand_chasin_rabbits_01 p br {display: none;}
+	.section_brand_chasin_rabbits_02 p br {display: none;}
+
+	/* ICS */
+	.section_brand_ics_01 h2, .section_brand_ics_02 h2 {font-size: 40px;}
+	.section_brand_ics_01_txt_inner {margin-left: 90px;}
+	.section_brand_ics_01_img .lazy_img {padding-top: 111.3%;}
+	.section_brand_ics_01_bg {width: 740px;}
+
+	/* NEOPHARM */
+	.brand_neopharm_content_title {padding: 0;}
+	.brand_neopharm_content_txt p br {display: none;}
+	.brand_neopharm_content_txt p b {display: block;}
+
+	/* ATOPALM */
+	.section_brand_atopalm_01_img .lazy_img {padding-top: 111.4%;}
+	.section_brand_atopalm_01_txt_inner {margin-left:90px;}
+
+	/* REAL BARRIER */
+	.section_brand_real_barrier_01_img .lazy_img {padding-top: 111.4%;}
+	.section_brand_real_barrier_01_txt_inner {margin-left:90px;}
+
+	/* DERMA B */
+	.section_brand_derma_b_step {margin: 0 10px;}
+
+	/* ZEROID */
+	.section_brand_zeroid_step {margin: 0 10px;}
+
+}
+
+
+
+/* **************************************** *
+ * 1280px
+ * **************************************** */
+@media (max-width: 1280px){
+
+    /* Brand insta single */
+    .single-instagram .single_content { padding-bottom: 130px;}
+
+    /* FLAMEL */
+	/*.flamel_stap3_inner li {width: 30%;margin-right: 5%;}
+    .flamel_stap3_inner li:after {right: -13.5%;}
+    .flamel_stap3_inner li b {font-size: 18px;}
+    .flamel_stap3_inner li span {font-size:40px;padding-top: 8px;}
+    .flamel_stap3_inner li p {padding-top: 16px;}*/
+
+	/* ATOPALM */
+	.page-template-brand-atopalm .mfp-image-holder button.mfp-close,
+	.page-template-brand-atopalm .mfp-iframe-holder button.mfp-close {width: 42px;height: 52px;top:-75px;}
+
+	/* DERMA B */
+	.section_brand_derma_b_01 h2 {margin-bottom: 14px;}
+
+}
+
+
+
+/* **************************************** *
+ * 1180px
+ * **************************************** */
+@media (max-width: 1180px){
+
+	/* Body Header*/
+	.article_brand_header_inner h1 {height: 60px;}
+	.article_brand_header_inner h1 img {max-height: 100%; vertical-align: top;}
+	.sub_brand_atopalm .article_brand_header_inner h1 {padding-left: 15px;}
+	.sub_brand_real_barrier .article_brand_header_inner h1 {padding-left: 15px;}
+
+
+	/* Solution/About section */
+	.brand_solution_slideshow_arrow { background: #f4f4f4; border-radius: 50%; display: block; z-index: 101; opacity: 1; top: 23.5%; margin-top: 0; }
+	.brand_solution_slideshow_arrow:before {top: auto; line-height: 50px; font-size: 20px;}
+	.brand_solution_slideshow_next { right: -23px; }
+	.brand_solution_slideshow_next:before { content: '\e90c'; font-size: 20px; padding-right: 8px;}
+	.brand_solution_slideshow_prev { left: -23px; }
+	.brand_solution_slideshow_prev:before { content: '\e906'; padding-left: 8px;}
+
+	/* FLAMEL */
+	.sub_brand_flamel .article_brand_header_inner h1 {height: 80px;}
+	.sub_brand_flamel .article_brand_header_inner img {width: auto;}
+
+	/* E NATURE */
+	.sub_brand_enature .article_brand_header_inner h1 {height: 50px;}
+
+	/* CHASIN RABBITS */
+	.sub_brand_chasin_rabbits .article_brand_header_inner { left: 10.2%; margin-top:-132px; }
+	.sub_brand_chasin_rabbits .article_brand_header_inner h1 {height: auto;}
+	.sub_brand_chasin_rabbits .article_brand_header_inner img { max-width: 296px; }
+
+	/* ICS */
+	.sub_brand_ics .article_brand_header_inner h1 {height: 70px;}
+
+	/* ATOPALM */
+	.sub_brand_atopalm .article_brand_header_inner h1 {height: 46px;}
+
+	/* REAL BARRIER */
+	.sub_brand_real_barrier .article_brand_header_inner h1 {height: 50px;}
+
+	/* DERMA B */
+	.sub_brand_derma_b .article_brand_header_inner h1 {height: 140px;}
+
+	/* ZEROID */
+	.sub_brand_zeroid .article_brand_header_inner h1 {height: 50px;}
+}
+
+
+
+/* **************************************** *
+ * 1023px
+ * **************************************** */
+@media (max-width: 1023px){
+
+	/* Body Header*/
+	.article_brand_header { background-position: 90% center; }
+	.brand_body_header h2 {font-size: 28px;}
+	.brand_body_header p b {display: block;}
+
+	/* Brand sticky nav */
+	.show_brand_sticky.up_brand_sticky .brand_sticky_nav {-webkit-transform: translateY(60px);-ms-transform: translateY(60px);transform: translateY(60px);}
+	.show_brand_sticky .brand_sticky_nav{ top: 60px;}
+	.brand_sticky_nav {overflow: hidden;}
+	.brand_sticky_nav nav  {display: block;width: 100%;font-size: 0;overflow-y: hidden;overflow-x: auto;white-space: nowrap;-webkit-overflow-scrolling: touch;max-width: 1023px;}
+    .brand_sticky_nav a {height: 60px;float: none;display: inline-block;vertical-align: top;width: 150px;}
+
+	/* Solution/About section */
+	.section_brand_solution h2 {font-size: 45px;}
+	.brand_solution_slideshow {padding-bottom: 120px;}
+	.brand_solution_slideshow_content h3 {font-size: 28px; padding-left: 40px; width: 40%;}
+	.sub_brand_enature .brand_solution_slideshow_content h3 span b {padding-right: 19px;}
+	.sub_brand_enature .brand_solution_slideshow_content h3 span b:after {top: 4px;font-size: 20px;}
+	.brand_solution_slideshow_content p {width: 60%; padding-right: 40px;}
+	.brand_solution_slideshow_content p b {line-height: 1.2; margin-bottom: 2px;}
+
+	/* Instagram section */
+	.brand_insta {padding-top: 102px;}
+	.brand_insta h2 {font-size: 45px;}
+
+    /* Brand insta single */
+    .single-instagram .single_content { padding-bottom: 118px;}
+
+    /* MOTION */
+    .brand_logo_motion_target {-webkit-transition: 300ms;transition: 300ms;}
+
+	/* ITS SKIN */
+	.sub_brand_itsskin .brand_body_header p br {display: none;}
+	.section_brand_itsskin_01 h2, .section_brand_itsskin_02 h2 {font-size: 36px;}
+	.section_brand_itsskin_01_txt_inner {margin-left: 60px;}
+	.section_brand_itsskin_02_txt {width: 100%; z-index:1; padding-right:0; max-width: 610px;}
+	.section_brand_itsskin_02_txt .lazy_img {padding-top: 89.2%;}
+	.section_brand_itsskin_02_txt_circle { width: 380px; }
+	.section_brand_itsskin_02_txt_circle img { max-width: 100%; }
+	.section_brand_itsskin_02_img {width: 78%; padding-left: 0;}
+	.section_brand_itsskin_02_img_bubble { width: 600px; height: 600px; right: -350px; top: -150px; }
+
+	/* FLAMEL */
+	.sub_brand_flamel .article_brand_header {background-position: 82% center;}
+	.section_brand_flamel_01_txt_inner {margin-left: 60px;}
+	.section_brand_flamel_01_bg > img {max-width: 280px;}
+	.section_brand_flamel_02_txt {width: 100%; z-index:1; padding-right:0; max-width: 610px;}
+	.section_brand_flamel_02_txt .lazy_img {padding-top: 89.2%;}
+	.section_brand_flamel_02_txt_circle { width: 380px; }
+	.section_brand_flamel_02_txt_circle img { max-width: 100%; }
+	.section_brand_flamel_02_img {width: 78%; padding-left: 0;}
+	.section_brand_flamel_02_img {padding-left: 0; padding-top: 0;}
+	.section_brand_flamel_02_img figure {margin-bottom: 25px; margin-top: 160px;}
+	.section_brand_flamel_02_img_bubble { width: 600px; height: 600px; right: -350px; top: -150px; }
+	.section_brand_solution .section_brand_solution_desc {padding-left: 30px; padding-right: 30px;}
+	/* .sub_brand_flamel .brand_solution_slideshow_content h3 {padding: 58px 20px 74px; padding-left: 40px; background-size: 35px; background-position: 40px 61px;}
+	html.ie11 .sub_brand_flamel .brand_solution_slideshow_content h3 {background-size: 35px;} */
+	.sub_brand_flamel .brand_solution_slideshow_content p b {font-size: 23px;}
+	/*.flamel_stap3_inner li {width: 27.77%;margin-right: 8.33%;}
+    .flamel_stap3_inner li:after {right: -23.5%;font-size: 35px;}*/
+	.flamel_stap3_mark {padding-top:0;padding-right: 50px; text-align:left;}
+	.flamel_stap3_content > p br {display:none;}
+	.section_brand_flamel_sub_title_01 img:nth-child(1) {height: 28px;}
+	.section_brand_flamel_sub_title_02 img:nth-child(1) {height: 37px;}
+
+	/* E NATURE */
+	.sub_brand_enature .article_brand_header {background-position: 75% center;}
+	.section_brand_enature_step_content {padding: 30px;}
+	.section_brand_enature_step_content h3 {font-size: 18px;}
+	.section_brand_enature_01 h2, .section_brand_enature_02 h2 {font-size: 36px;}
+	.section_brand_enature_02_txt {padding-right: 45px;}
+	.section_brand_enature_03_img { width: 50%; }
+	.section_brand_enature_03_txt { width: 50%; }
+	.section_brand_enature_02_txt_inner {padding-right: 0px;}
+	.section_brand_enature_03 h3 { font-size: 18px;}
+	.section_brand_enature_03_img .lazy_img {margin-left: 0px; padding-top: 130%;}
+
+	/* CHASIN RABBITS */
+	.sub_brand_chasin_rabbits.brand_body_header p br {display: none;}
+	.section_brand_chasin_rabbits_01 h2, .section_brand_chasin_rabbits_02 h2 {font-size: 36px;}
+	.section_brand_chasin_rabbits_01_txt_inner {margin-left: 60px;}
+	.section_brand_chasin_rabbits_02_txt {width: 100%; z-index:1; padding-right:0; max-width: 610px;}
+	.section_brand_chasin_rabbits_02_txt .lazy_img {padding-top: 89.2%;}
+	.section_brand_chasin_rabbits_02_txt_circle { width: 380px; }
+	.section_brand_chasin_rabbits_02_txt_circle img { max-width: 100%; }
+	.section_brand_chasin_rabbits_02_img {width: 78%; padding-left: 0;}
+	.section_brand_chasin_rabbits_02_img_bubble { width: 600px; height: 600px; right: -350px; top: -150px; }
+
+	/* ICS */
+	.section_brand_ics_01 h2, .section_brand_ics_02 h2 {font-size: 36px;}
+	.section_brand_ics_01_txt_inner {margin-left: 60px;}
+	.section_brand_ics_02_txt {width: 100%; z-index:1; padding-right:0; max-width: 610px;}
+	.section_brand_ics_02_txt .lazy_img {padding-top: 89.2%;}
+	.section_brand_ics_02_txt_circle { width: 380px; }
+	.section_brand_ics_02_txt_circle img { max-width: 100%; }
+	.section_brand_ics_02_img {width: 78%; padding-left: 0;}
+	.section_brand_ics_02_img_bubble { width: 600px; height: 600px; right: -350px; top: -150px; }
+	.sub_brand_ics .brand_solution_slideshow {padding-bottom: 120px;}
+
+	/* NEOPHARM */
+	.brand_neopharm_content_title h2 {font-size: 22px;}
+	.section_brand_neopharm_item {margin-bottom: 120px;}
+	.section_brand_neopharm_item.section_brand_neopharm_04 {margin-bottom: 0;}
+	.brand_neopharm_content_txt .jt_point_btn { padding: 11px 58px 12px 31px;}
+
+	/* ATOPALM */
+	.section_brand_atopalm_01_txt_inner {margin-left:60px;}
+	.section_brand_atopalm_01 h2,
+	.section_brand_atopalm_02 h2 {font-size: 36px;}
+	.section_brand_atopalm_03 h2 {font-size:28px;}
+
+	/* REAL BARRIER */
+	.section_brand_real_barrier_01_txt_inner {margin-left:60px;}
+	.section_brand_real_barrier_01 h2,
+	.section_brand_real_barrier_02 h2 {font-size: 45px;}
+	.section_brand_real_barrier_03 h2 {font-size:28px;}
+
+	/* DERMA B */
+	.section_brand_derma_b_01 h2 {font-size: 36px;margin-bottom: 6px;}
+	.section_brand_derma_b_01 > p {margin-bottom: 28px;}
+	.section_brand_derma_b_step_content {padding:30px;}
+	.section_brand_derma_b_step_content h3 {font-size: 18px;}
+	.section_brand_derma_b_step_content p {font-size: 15px;}
+	.section_brand_derma_b_step_content ul li:after {top: 12px;}
+
+	/* ZEROID */
+	.section_brand_zeroid_step_content {padding:30px;}
+	.section_brand_zeroid_step_content h3 {font-size: 18px;}
+	.section_brand_zeroid_step_content p {font-size: 15px;}
+	.section_brand_zeroid_step_content ul li:after {top: 12px;}
+
+}
+
+
+
+/* **************************************** *
+ * 890px
+ * **************************************** */
+@media (max-width: 890px){
+
+    /* FLAMEL */
+	.section_brand_flamel_sub_title_01 img:nth-child(2) {display:block; margin-bottom:5px;}
+
+}
+
+
+
+/* **************************************** *
+ * 820px
+ * **************************************** */
+@media (max-width: 820px){
+
+    /* FLAMEL */
+	/*.flamel_stap3_inner li {width: 32%;margin-right: 2%;vertical-align: top;}
+    .flamel_stap3_inner li:after {right: -9.6%;font-size: 28px;}
+    .flamel_stap3_inner li b {font-size: 16px;}
+    .flamel_stap3_inner li span {font-size: 34px;}
+    .flamel_stap3_inner li p {padding: 13px 10% 0;}
+    .flamel_stap3_inner li p br {display:none;}*/
+
+}
+
+
+
+/* **************************************** *
+ * 768px
+ * **************************************** */
+@media (max-width: 768px){
+
+	/* Body Global*/
+	.article_brand p {font-size: 15px; line-height: 1.67;}
+	.brand_neopharm_r_mark:after {font-size: 11px;line-height:11px;}
+	b > .brand_neopharm_r_mark:after {top: 2px;}
+    p > .brand_neopharm_r_mark:after {top: 3px;}
+	.article_brand_header {background-position: center top;}
+	.sub_brand_itsskin .article_brand_header_inner h1 { height: 38px; }
+	.sub_brand_flamel .article_brand_header_inner h1 {height: 63px;margin-left: 18px;}
+	.sub_brand_enature .article_brand_header_inner h1 {height: 36px; padding: 0 18px;}
+	.sub_brand_chasin_rabbits .article_brand_header_inner h1 {height: 160px;}
+	.sub_brand_ics .article_brand_header_inner h1 {height: 57px;}
+	.sub_brand_neopharm .article_brand_header_inner h1 {height: 50px;}
+	.sub_brand_atopalm .article_brand_header_inner h1 {height: 30px;}
+	.sub_brand_real_barrier .article_brand_header_inner h1 {height: 32px;}
+	.sub_brand_derma_b .article_brand_header_inner h1 {height: 90px;}
+	.sub_brand_zeroid .article_brand_header_inner h1 {height: 34px;}
+
+	.brand_logo_motion_target {display:none;}
+
+	.article_brand_header_inner h1 {text-align: center;}
+	.brand_insta_container {margin-bottom:-2px;}
+
+	/* Body Header*/
+	.brand_body_header {padding-top: 155px;}
+	.brand_body_header h2 {font-size: 23px; margin-bottom: 17px; line-height: 1.6;}
+	.brand_body_header p br {display: none;}
+
+	/* Brand sticky nav */
+	.brand_sticky_nav {height: 60px;overflow: hidden;}
+	/* .brand_sticky_nav::-webkit-scrollbar {display: none;} */
+	.brand_sticky_nav nav {height: 67px;}
+	.brand_sticky_nav a {float: none;display: inline-block;vertical-align: top;width: 150px;}
+	.brand_sticky_nav a.current:after {max-width: 110px;}
+	.brand_sticky_nav a.brand_sticky_nav_flamel {width: 130px}
+	.brand_sticky_nav a.brand_sticky_nav_ics {width: 130px}
+	.brand_sticky_nav a.brand_sticky_nav_atopalm {width: 200px}
+	.brand_sticky_nav a.brand_sticky_nav_flamel img{width: 76px;margin-left: 7px;margin-top: 3px;}
+	.brand_sticky_nav a.brand_sticky_nav_enature img { width: 76px; }
+	.brand_sticky_nav a.brand_sticky_nav_chasin_rabbits img { width: 120px; margin-top: 1px; }
+	.brand_sticky_nav a.brand_sticky_nav_ics img{width: 37px;margin-left: 4px;margin-top: 3px;}
+	.brand_sticky_nav a.brand_sticky_nav_atopalm img{width:108px}
+
+	/* Solution/About section */
+	.section_brand_solution h2 {font-size: 35px;margin-bottom: 15px;}
+	.section_brand_solution em {font-size: 16px; line-height: 1.6; margin-bottom: 36px;}
+	.section_brand_solution .section_brand_solution_desc {padding: 25px 15px;margin-bottom: 40px;}
+	.brand_solution_slideshow {padding-bottom: 80px;}
+	.brand_solution_slideshow_content { display: block; padding: 23px 30px 29px;}
+	.brand_solution_slideshow_content h3, .brand_solution_slideshow_content p { display: block; width: auto; padding: 0;}
+	.brand_solution_slideshow_content h3 {font-size: 25px;}
+	.brand_solution_slideshow_content h3 i {padding-left:1px;}
+	.sub_brand_enature .brand_solution_slideshow_content h3 span b {padding-right: 17px;}
+	.sub_brand_enature .brand_solution_slideshow_content h3 span b:after {top: 3px;font-size: 18px;}
+	.brand_solution_slideshow_title_inner {top:-7px;}
+	.brand_solution_slideshow_content h3 span {line-height:1.2;}
+	.brand_solution_slideshow_content h3 i { font-size: 15px; line-height:1.67; padding-top:7px;}
+	.brand_solution_slideshow_content p {margin-top: 10px;}
+	.brand_solution_slideshow_content p b {font-size: 18px; margin-bottom: 0;}
+	.brand_solution_slideshow li figure { padding-top: 328px; }
+	.brand_solution_slideshow li figure img { height: 100%; max-width: none; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
+	.brand_solution_slideshow_arrow {top: 0; margin-top: 139px;}
+
+	/* Instagram section */
+	.brand_insta {padding-top: 72px;}
+	.brand_insta h2 {font-size: 35px;}
+	.brand_insta_profil {font-size: 15px; margin-bottom: 16px;}
+	.brand_body_header p {padding-bottom: 20px;}
+	.brand_social {padding: 36px 0 80px;}
+	.brand_social .brand_social_btn { width: 50px; height: 50px; margin: 0 7.5px; }
+	.brand_social .brand_social_btn:after {top: 2px;}
+	.brand_social .brand_social_btn_youtube:after { font-size: 18px; }
+	.brand_social .brand_social_btn_facebook:after { font-size: 15px; }
+	.brand_social .brand_social_btn_instagram:after { font-size: 16px; }
+	.brand_social .brand_social_btn_kakao:after { font-size: 16px; }
+
+	.brand_insta_list {margin: 0 -30px; width: -webkit-calc(100% + 60px * 1); width: calc(100% + 60px * 1);}
+	.brand_insta_list .slick-list {padding: 0 30px;}
+	.brand_insta_list_item {max-width: 300px;}
+
+    /* Brand insta single */
+    .single-instagram .single_content { padding-bottom: 98px;}
+
+	/* 위첨자 */
+    .article_brand_body sup {top: 4px;}
+
+	/* ITS SKIN */
+	.sub_brand_itsskin .article_brand_header_inner { width: 100%; left: 0; top: auto; bottom: 120px; margin-top: 0; }
+	.sub_brand_itsskin .brand_body_header p {padding-bottom: 20px;}
+	.sub_brand_itsskin .brand_social {padding-top: 36px; padding-bottom: 80px;}
+	.section_brand_itsskin_01 {display: block; margin-bottom: 117px;}
+	.section_brand_itsskin_01 em, .section_brand_itsskin_02 em {font-size: 18px; margin-bottom: 20px;}
+	.section_brand_itsskin_01 h2 {margin-bottom: 8px;}
+	.section_brand_itsskin_01 h2, .section_brand_itsskin_02 h2 {font-size: 28px; line-height: 1.35;}
+	.section_brand_itsskin_01_img, .section_brand_itsskin_01_txt { display: block; width: auto; }
+	.section_brand_itsskin_01_txt_inner {margin-left: 0; margin-top: 24px;}
+	.section_brand_itsskin_01_bg > img {max-width: 90%;}
+	.section_brand_itsskin_02 {margin-bottom: 117px;}
+	.section_brand_itsskin_02 h2 {margin-bottom: 8px;}
+	.section_brand_itsskin_02_txt {padding-right: 0;}
+	.section_brand_itsskin_02_txt p {padding-bottom: 26px;}
+	.section_brand_itsskin_02_txt .lazy_img {width: 78%; padding-top: 69.5%;}
+	.section_brand_itsskin_02_txt_circle { width: 320px;bottom: -150px; left: -190px; }
+	.section_brand_itsskin_02_img {padding-left: 0; padding-top: 0;}
+	.section_brand_itsskin_02_img figure {margin-bottom: 25px; margin-top: 160px;}
+	.section_brand_itsskin_02_img_bubble {width: 340px; height: 340px; right: -240px; top:11px;}
+
+	.sub_brand_itsskin .section_brand_solution em { margin-bottom: 40px;}
+
+	/* FLAMEL */
+	.sub_brand_flamel .article_brand_header {background-position: center top;}
+	.sub_brand_flamel .article_brand_header_inner { width: 100%; left: 0; top: auto; bottom: 120px; margin-top: 0;}
+	.sub_brand_flamel .article_brand_header_inner img {width: auto;}
+	.section_brand_flamel_01 {display: block; margin-bottom: 117px;}
+	.section_brand_flamel_01_img, .section_brand_flamel_01_txt { display: block; width: auto; }
+	.section_brand_flamel_01_txt_inner {margin-left: 0; margin-top: 24px;}
+    .section_brand_flamel_01_bg {padding-top: 25vh;}
+	.section_brand_flamel_01_bg > img {max-width: 40%;}
+	.section_brand_flamel_02 {margin-bottom: 117px;}
+	.section_brand_flamel_02_txt {padding-right: 0; max-width: 100%;}
+	.section_brand_flamel_02_txt p {padding-bottom: 26px;}
+	.section_brand_flamel_02_txt_circle { width: 320px;bottom: -150px; left: -190px; }
+	.section_brand_flamel_02_txt .lazy_img {width: 78%; padding-top: 69.5%;}
+	.section_brand_flamel_02_img {padding-left: 0; padding-top: 0;}
+	.section_brand_flamel_02_img figure {margin-bottom: 25px; margin-top: 160px;}
+	.section_brand_flamel_02_img_bubble {width: 340px; height: 340px; right: -240px; top:11px;}
+	/* .sub_brand_flamel .section_brand_solution h2 {margin-bottom: 15px;} */
+	/* .sub_brand_flamel .brand_solution_slideshow_content h3 i {padding-top: 7px;} */
+	/* .sub_brand_flamel .section_brand_solution em {margin-bottom: 30px;} */
+	/* .sub_brand_flamel .brand_solution_slideshow_content {height: auto;} */
+	/* .sub_brand_flamel .brand_solution_slideshow_content h3 {line-height: 1.2; background-position: left top; padding: 0; padding-left: 0;background-size: 22px; width: auto;} */
+	/* html.ie11 .sub_brand_flamel .brand_solution_slideshow_content h3 {background-size: 22px;} */
+	/* .sub_brand_flamel .brand_solution_slideshow_content h3 span {top: 3px;} */
+	/* .sub_brand_flamel .brand_solution_slideshow_content p {margin-top: 10px; padding: 0; width: auto;}
+	.sub_brand_flamel .brand_solution_slideshow_content p b {font-size: 17px; margin-bottom: 4px;} */
+
+	.section_brand_flamel_sub_title_01 img:nth-child(1) {height: 22px;margin-left: 0;margin-bottom: 18px;}
+	.section_brand_flamel_sub_title_01 img:nth-child(2) {display:inline-block; margin-bottom:0;}
+	.section_brand_flamel_sub_title_01 img:nth-child(2),
+	.section_brand_flamel_sub_title_01 img:nth-child(3),
+	.section_brand_flamel_sub_title_02 img:nth-child(2) {height: 18px;}
+	.section_brand_flamel_sub_title_02 img:nth-child(1) {height: 30px;}
+
+	.flamel_stap3 {margin-bottom:60px;}
+	.flamel_stap3 > div {width: 100%;}
+	.flamel_stap3_mark {text-align:center; padding-right:0;margin-bottom:60px;}
+	.flamel_stap3_mark img {padding-left: 53px;}
+	.flamel_stap3_content_inner {padding-top: 22px;}
+	.flamel_stap3_content_inner li {margin-bottom: 15px;}
+	.flamel_stap3_stage {position: relative;top: 3px;padding-top: 1px;padding-left: 11px;}
+
+	/* E NATURE */
+	.sub_brand_enature .article_brand_header {background-position: center top;}
+	.sub_brand_enature .article_brand_header_inner {width: 100%; left: 0; top: auto; bottom: 120px; margin-top: 0;}
+	.enature_brand_body_header_img figure {margin-bottom: 36px;}
+	.sub_brand_enature .brand_social {padding-bottom: 80px;}
+	.section_brand_enature_01 ol { width: -webkit-calc(100% + 60px * 1); width: calc(100% + 60px * 1); overflow-y: hidden; overflow-x: auto; -webkit-overflow-scrolling: touch; font-size: 0; white-space: nowrap; margin: 0 -30px; padding: 0 30px;}
+	.section_brand_enature_01 ol li { width: 300px; float: none; display: inline-block; vertical-align: top; margin-right: 20px; }
+	.section_brand_enature_01 ol li:last-child {margin-right: 0;}
+	.section_brand_enature_step {margin: 0;}
+	.section_brand_enature_step_content {padding: 22px 20px;}
+	.section_brand_enature_step_content > * {white-space: normal;}
+	.section_brand_enature_step_content h3 {font-size: 16px; margin-top: 0; margin-bottom: 5px;}
+	.section_brand_enature_01 h2 {margin-bottom: 10px;}
+	.section_brand_enature_01 h2, .section_brand_enature_02 h2 {font-size: 28px; line-height: 1.35; margin-bottom: 20px; margin-left: -2px;}
+	.section_brand_enature_02 h2 {font-size: 28px;}
+	.section_brand_enature_02 { display: block; float: left; max-width: 610px; }
+	.section_brand_enature_02_txt, .section_brand_enature_02_img { display: block; width: 100%; }
+	.section_brand_enature_02_txt { padding-right: 0; margin-bottom: 20px;}
+	.section_brand_enature_02_txt_inner {top: auto;}
+	.section_brand_enature_02_txt_inner li { font-size: 15px; line-height: 1.67; padding-bottom: 6px; }
+	.section_brand_enature_02_img {width: 78%}
+	.section_brand_enature_02_img figure { padding-top: 104%; float: none; }
+	.section_brand_enature_02_img_picto {left: 75.9%}
+	.section_brand_enature_02_txt_circle.circular_motion { width: 320px; bottom: -110px; left: -220px;}
+	.section_brand_enature_03 { display: block; float: right; max-width: 480px; clear: both; margin-bottom: 117px; width: 78%; }
+	.section_brand_enature_03 h3 {font-size: 16px; margin-top: 10px;}
+	.section_brand_enature_03 p + h3 {margin-top: 16px;}
+	.section_brand_enature_03_txt_inner {top: auto;margin-left: 0;}
+	.section_brand_enature_03_img, .section_brand_enature_03_txt { display: block; width: auto; }
+	.section_brand_enature_03_img {margin-bottom: 30px;}
+	.section_brand_enature_03_img .lazy_img { padding-top: 130.1%; }
+	.enature_mark {margin-right: 0;}
+	.enature_mark + .enature_mark {margin-left: 10px;}
+
+	.sub_brand_enature .section_brand_solution em {margin-bottom: 40px;}
+	.sub_brand_enature .brand_solution_slideshow_content h3 span {top: 3px;}
+	.sub_brand_enature .brand_solution_slideshow_content h3 i {/*padding-top: 7px;*/}
+
+	/* CHASIN RABBITS */
+	.sub_brand_chasin_rabbits .article_brand_header_inner { width: 100%; left: 0; top: auto; bottom: 120px; margin-top: 0; }
+	.sub_brand_chasin_rabbits .brand_body_header p {padding-bottom: 20px;}
+	.sub_brand_chasin_rabbits .brand_social {padding-top: 36px; padding-bottom: 80px;}
+	.section_brand_chasin_rabbits_01 {display: block; margin-bottom: 117px;}
+	.section_brand_chasin_rabbits_01 em, .section_brand_chasin_rabbits_02 em {font-size: 18px; margin-bottom: 20px;}
+	.section_brand_chasin_rabbits_01 h2 {margin-bottom: 8px;}
+	.section_brand_chasin_rabbits_01 h2, .section_brand_chasin_rabbits_02 h2 {font-size: 28px; line-height: 1.35;}
+	.section_brand_chasin_rabbits_01_img, .section_brand_chasin_rabbits_01_txt { display: block; width: auto; }
+	.section_brand_chasin_rabbits_01_txt_inner {margin-left: 0; margin-top: 24px;}
+	.section_brand_chasin_rabbits_01_bg > img {max-width: 90%;}
+	.section_brand_chasin_rabbits_02 {margin-bottom: 117px;}
+	.section_brand_chasin_rabbits_02 h2 {margin-bottom: 8px;}
+	.section_brand_chasin_rabbits_02_txt {padding-right: 0; padding-top: 0;}
+	.section_brand_chasin_rabbits_02_txt p {padding-bottom: 26px;}
+	.section_brand_chasin_rabbits_02_txt .lazy_img {width: 78%; padding-top: 69.5%;}
+	.section_brand_chasin_rabbits_02_txt_inner { margin-bottom: 20px; }
+	.section_brand_chasin_rabbits_02_txt_circle { width: 320px;bottom: -150px; left: -190px; }
+	.section_brand_chasin_rabbits_02_img {padding-left: 0; padding-top: 0;}
+	.section_brand_chasin_rabbits_02_img figure {margin-bottom: 25px; margin-top: 160px;}
+	.section_brand_chasin_rabbits_02_img_bubble {width: 340px; height: 340px; right: -240px; top:11px;}
+
+	.sub_brand_chasin_rabbits .section_brand_solution em { margin-bottom: 40px;}
+
+	/* ICS */
+	.sub_brand_ics .article_brand_header_inner {width: 100%; left: 0; top: auto; bottom: 120px; margin-top:0;}
+	.sub_brand_ics .brand_body_header p {padding-bottom: 80px;}
+	.sub_brand_ics .section_brand_solution em {margin-bottom: 40px;}
+	.section_brand_ics_01 {display: block; margin-bottom: 120px;}
+	.section_brand_ics_01 em, .section_brand_ics_02 em {font-size: 18px; margin-bottom: 20px;}
+	.section_brand_ics_01 h2, .section_brand_ics_02 h2 {font-size: 28px; line-height: 1.35; margin-bottom: 10px;}
+	.section_brand_ics_01_img, .section_brand_ics_01_txt { display: block; width: auto; }
+	.section_brand_ics_01_txt_inner {margin-left: 0; margin-top: 24px;}
+	.section_brand_ics_01_img .lazy_img {padding-top: 111.3%;}
+	.section_brand_ics_01_bg {width: 100%;}
+	.section_brand_ics_02 {margin-bottom: 117px;}
+	.section_brand_ics_02_txt {padding-right: 0; max-width: 100%;}
+	.section_brand_ics_02_txt p {padding-bottom: 26px;}
+	.section_brand_ics_02_txt p br {display: none;}
+	.section_brand_ics_02_txt .lazy_img {width: 78%; padding-top: 69.5%;}
+	.section_brand_ics_02_txt_circle { width: 320px;bottom: -150px; left: -190px; }
+	.section_brand_ics_02_img {padding-left: 0; padding-top: 0;}
+	.section_brand_ics_02_img figure {margin-bottom: 25px; margin-top: 160px;}
+	.section_brand_ics_02_img p br {display: none;}
+	.section_brand_ics_02_img_bubble {width: 340px; height: 340px; right: -240px; top:11px;}
+	.sub_brand_ics .brand_solution_slideshow {padding-bottom: 25px;}
+
+	/* NEOPHARM */
+	.sub_brand_neopharm .article_brand_header_inner {width: 100%; left: 0; top: auto; bottom: 120px; margin-top:0;}
+	.sub_brand_neopharm .brand_body_header {margin-bottom: 80px;}
+	.brand_neopharm_banner {margin-bottom: 28px;}
+	.brand_neopharm_content_title {width: 100%; position: relative;}
+	.brand_neopharm_content_title h2 {font-size: 20px; line-height: 1.4;}
+	.brand_neopharm_content_title .brand_social { position: absolute; top: 0; right: 0; margin-top: 0; margin-left: 0; padding: 0; }
+	.brand_neopharm_content_txt {width: 100%; margin-top: 20px;}
+	.brand_neopharm_content_txt ul {margin-bottom: 0; margin-top: 12px;}
+	.brand_neopharm_content_txt ul li {font-size: 15px; line-height: 1.67; padding-bottom: 4px; padding-left: 10px;}
+	.brand_neopharm_content_txt ul li:before {top: 10px;}
+	.brand_neopharm_content_txt p b {margin-bottom: 10px;}
+	.brand_neopharm_content_txt p b:last-child {margin-bottom: 0;}
+	html.ios .brand_neopharm_content_txt ul li:before {top: 9px;}
+	.brand_neopharm_content_txt .jt_point_btn {font-size: 13px;padding: 9px 39px 10px 24px; font-family: 'NotoSansKR', sans-serif}
+	.brand_neopharm_content_txt .jt_point_btn:after {font-size: 30px; right: -15px;}
+	html.ios .brand_neopharm_content_txt .jt_point_btn {padding: 8px 39px 11px 24px}
+	html.ios .brand_neopharm_content_txt .jt_point_btn:after {display: inline-block; padding-top: 2px;}
+
+	.section_brand_neopharm_01 .brand_neopharm_content_txt .jt_point_btn,
+	.section_brand_neopharm_02 .brand_neopharm_content_txt .jt_point_btn,
+	.section_brand_neopharm_03 .brand_neopharm_content_txt .jt_point_btn,
+	.section_brand_neopharm_04 .brand_neopharm_content_txt .jt_point_btn {margin-top: 30px;}
+	.section_brand_neopharm_bubble {display: none;}
+
+	/* ATOPALM */
+	.sub_brand_atopalm .article_brand_header_inner { width: 100%; left: 0; top: auto; bottom: 120px; margin-top: 0; }
+	.section_brand_atopalm_01{display: block;margin-bottom: 120px;}
+	.section_brand_atopalm_02{display: block;margin-bottom: 100px;}
+	.section_brand_atopalm_01 h2,
+	.section_brand_atopalm_02 h2 {font-size: 28px;line-height: 1.35;margin-bottom:8px;}
+	.section_brand_atopalm_01_img,
+	.section_brand_atopalm_01_txt,
+	.section_brand_atopalm_02_img,
+	.section_brand_atopalm_02_txt {display: block; width:auto;}
+	.section_brand_atopalm_01_txt_inner {margin-left:0;margin-top:24px;}
+	.section_brand_atopalm_02_txt_inner {margin-left:0;margin-bottom:26px;top:0;}
+	.section_brand_atopalm_02_txt_inner p br {display: none;}
+	.section_brand_atopalm_02_img .lazy_img {padding-top: 76.9%;width: 86.1%;}
+	.section_brand_atopalm_01_img_circle {width: 320px;left:-220px;bottom:auto; top:-140px;}
+	.section_brand_atopalm_02_img_bubble {width: 340px;height: 340px;right: -200px;top: -160px;z-index: 0;}
+	.section_brand_atopalm_03 {padding-top: 53px;padding-bottom: 55px;margin-bottom: 73px;}
+	.section_brand_atopalm_03 h2 {font-size: 23px;line-height: 1.35;}
+	.section_brand_atopalm_03_inner {margin-top: 22px;}
+	.section_brand_atopalm_03_inner li p {font-size:15px;padding-top: 8px;}
+	.sub_brand_atopalm .brand_solution_slideshow {padding-bottom: 25px;}
+	.sub_brand_atopalm .brand_solution_slideshow_content {height:auto;}
+	.section_brand_atopalm_02_img_bubble {display:none;}
+	.page-template-brand-atopalm .mfp-image-holder button.mfp-close,
+	.page-template-brand-atopalm .mfp-iframe-holder button.mfp-close {width: 34px;height: 48px;top: -68px;}
+
+	/* REAL BARRIER */
+	.sub_brand_real_barrier .article_brand_header_inner { width: 100%; left: 0; top: auto; bottom: 120px; margin-top: 0; }
+	.section_brand_real_barrier_01{display: block;margin-bottom: 120px;}
+	.section_brand_real_barrier_02{display: block;margin-bottom: 100px;}
+	.section_brand_real_barrier_01 h2,
+	.section_brand_real_barrier_02 h2 {font-size: 35px;line-height: 1.35;margin-bottom:3px;margin-left:-1px;}
+	.section_brand_real_barrier_01_img,
+	.section_brand_real_barrier_01_txt,
+	.section_brand_real_barrier_02_img,
+	.section_brand_real_barrier_02_txt {display: block; width:auto;}
+	.section_brand_real_barrier_01_txt_inner {margin-left:0;margin-top:24px;}
+	.section_brand_real_barrier_02_txt_inner {margin-left:0;margin-bottom:26px;top:0;}
+	.section_brand_real_barrier_02_txt_inner p br {display: none;}
+	.section_brand_real_barrier_02_img .lazy_img {padding-top: 76.9%;width: 86.1%;}
+	.section_brand_real_barrier_01_img_circle {width: 320px;left:-220px;bottom:auto; top:-140px;}
+	.section_brand_real_barrier_02_img_bubble {width: 340px;height: 340px;right: -200px;top: -160px;z-index: 0;}
+	.section_brand_real_barrier_03 {padding-top:53px;padding-bottom: 55px;margin-bottom: 73px;}
+	.section_brand_real_barrier_03 h2 {font-size: 23px;line-height: 1.35;}
+	.section_brand_real_barrier_03_inner {margin-top: 22px;}
+	.section_brand_real_barrier_03_inner li p {font-size:15px;padding-top: 8px;}
+	.section_brand_real_barrier_02_img_bubble {display:none;}
+	.section_brand_real_barrier_01_img_circle {display: none;}
+
+	/* DERMA B */
+	.sub_brand_derma_b .article_brand_header_inner { width: 100%; left: 0; top: auto; bottom: 120px; margin-top: 0; }
+	.sub_brand_derma_b .brand_social {padding-bottom: 80px;}
+	.section_brand_derma_b_01_container {margin-bottom: 120px;}
+	.section_brand_derma_b_01 h2 {font-size: 28px;line-height: 1.35;margin-left: -2px;}
+	.section_brand_derma_b_01 > p {font-size:15px;word-break:keep-all;margin-bottom: 20px;}
+	.section_brand_derma_b_01 > p br {display: none;}
+	html.ios .section_brand_derma_b_step_content ul li:after {top:10px}
+	.section_brand_derma_b_01 ol { width: -webkit-calc(100% + 60px * 1); width: calc(100% + 60px * 1); overflow-y: hidden; overflow-x: auto; -webkit-overflow-scrolling: touch; font-size: 0; white-space: nowrap; margin: 0 -30px; padding: 0 30px;}
+	.section_brand_derma_b_01 ol > li { width: 300px; float: none; display: inline-block; vertical-align: top; margin-right: 20px; }
+	.section_brand_derma_b_01 ol > li:last-child {margin-right: 0;}
+	.section_brand_derma_b_step {margin: 0;}
+	.section_brand_derma_b_step_content {padding: 22px 20px;}
+	.section_brand_derma_b_step_content > * {white-space: normal;}
+	.section_brand_derma_b_step_content h3 {font-size: 16px; margin-top: 0; margin-bottom: 5px;}
+
+	/* ZEROID */
+	.sub_brand_zeroid .article_brand_header_inner { width: 100%; left: 0; top: auto; bottom: 120px; margin-top: 0; }
+	.sub_brand_zeroid .brand_social {padding-bottom: 80px;}
+	.section_brand_zeroid_01_container {margin-bottom: 120px;}
+	.section_brand_zeroid_01 ol { width: -webkit-calc(100% + 60px * 1); width: calc(100% + 60px * 1); overflow-y: hidden; overflow-x: auto; -webkit-overflow-scrolling: touch; font-size: 0; white-space: nowrap; margin: 0 -30px; padding: 0 30px;}
+	.section_brand_zeroid_01 ol > li { width: 300px; float: none; display: inline-block; vertical-align: top; margin-right: 20px; }
+	.section_brand_zeroid_01 ol > li:last-child {margin-right: 0;}
+	.section_brand_zeroid_step {margin: 0;}
+	.section_brand_zeroid_step_content {padding: 22px 20px;}
+	.section_brand_zeroid_step_content > * {white-space: normal;}
+	.section_brand_zeroid_step_content h3 {font-size: 17px; margin-top: 0; margin-bottom: 5px;}
+
+	.sub_brand_itsskin .article_brand_header {background-image: url(../images/brand/itsskin-main-visual_mobile.jpg)}
+	.sub_brand_flamel .article_brand_header {background-image: url(../images/brand/flamel-visual-mobile.jpg)}
+	.sub_brand_enature .article_brand_header {background-image: url(../images/brand/enature-main-visual-mobile-v1.1.jpg)}
+	.sub_brand_chasin_rabbits .article_brand_header {background-image: url(../images/brand/chasin-rabbits-main-visual-mobile.jpg)}
+	.sub_brand_ics .article_brand_header {background-image: url(../images/brand/ics-main-visual-mobile.jpg)}
+	.sub_brand_neopharm .article_brand_header {background-image: url(../images/brand/neopharm-main-visual-mobile.jpg)}
+	.sub_brand_atopalm .article_brand_header {background-image: url(../images/brand/atopalm-main-visual-mobile.jpg?v1.1)}
+	.sub_brand_real_barrier .article_brand_header {background-image: url(../images/brand/real-barrier-main-visual-mobile.jpg?v1.1)}
+	.sub_brand_derma_b .article_brand_header {background-image: url(../images/brand/derma-b-main-visual-mobile.jpg?v1.1)}
+	.sub_brand_zeroid .article_brand_header {background-image: url(../images/brand/zenoid-main-visual-mobile.jpg?v1.1)}
+}
+
+
+
+/* **************************************** *
+ * 640px
+ * **************************************** */
+@media (max-width: 640px){
+
+    /* FLAMEL */
+	/*.flamel_stap3_inner li p {padding: 13px 12% 0;}
+    .flamel_stap3_inner li:after {right: -9.5%;font-size: 24px;}*/
+
+}
+
+
+
+/* **************************************** *
+ * 540px
+ * **************************************** */
+@media (max-width: 540px){
+	/* Body Header*/
+	.brand_sticky_nav a {height: 60px;}
+	.brand_sticky_nav a.brand_sticky_nav_itsskin {width: 115px}
+	.brand_sticky_nav a.brand_sticky_nav_flamel {width: 115px}
+	.brand_sticky_nav a.brand_sticky_nav_enature {width: 90px}
+	.brand_sticky_nav a.brand_sticky_nav_ics {width: 90px}
+	.brand_sticky_nav a.brand_sticky_nav_atopalm {width: 140px}
+	.brand_sticky_nav a.brand_sticky_nav_realbarrier {width: 140px}
+	.brand_sticky_nav a.brand_sticky_nav_derma_b {width: 115px;}
+	.brand_sticky_nav a.brand_sticky_nav_zeroid {width: 140px;}
+	.brand_sticky_nav a.brand_sticky_nav_itsskin img{width: 67px;}
+	.brand_sticky_nav a.brand_sticky_nav_flamel img{width: 57px;}
+	.brand_sticky_nav a.brand_sticky_nav_enature img{width: 67px; margin-top:2px;}
+	.brand_sticky_nav a.brand_sticky_nav_chasin_rabbits img{width: 100px;}
+	.brand_sticky_nav a.brand_sticky_nav_ics img{width: 29px;}
+	.brand_sticky_nav a.brand_sticky_nav_atopalm img{width: 84px;}
+	.brand_sticky_nav a.brand_sticky_nav_realbarrier img{width: 90px;margin-left: 3px;}
+	.brand_sticky_nav a.brand_sticky_nav_derma_b img{width: 57px;}
+	.brand_sticky_nav a.brand_sticky_nav_zeroid img{width: 72px;}
+
+	.brand_sticky_nav a.brand_sticky_nav_itsskin {width: 115px}
+	.brand_sticky_nav a.brand_sticky_nav_flamel {width: 115px}
+	.brand_sticky_nav a.brand_sticky_nav_flamel img {margin-top: 0; margin-left: 2px;}
+	.brand_sticky_nav a.brand_sticky_nav_enature {width: 90px}
+	.brand_sticky_nav a.brand_sticky_nav_enature img {margin-top: 1px;}
+	.brand_sticky_nav a.brand_sticky_nav_ics {width: 90px}
+	.brand_sticky_nav a.brand_sticky_nav_ics img {margin-top: 0px;}
+	.brand_sticky_nav a.brand_sticky_nav_atopalm {width: 140px}
+	.brand_sticky_nav a.brand_sticky_nav_atopalm img {width: 73px;}
+	.brand_sticky_nav a.brand_sticky_nav_realbarrier {width: 140px}
+	.brand_sticky_nav a.brand_sticky_nav_realbarrier img {width: 77px;}
+	.brand_sticky_nav a.brand_sticky_nav_derma_b {width: 115px;}
+	.brand_sticky_nav a.brand_sticky_nav_derma_b img {width: 48px;}
+	.brand_sticky_nav a.brand_sticky_nav_zeroid {width: 110px;}
+	.brand_sticky_nav a.brand_sticky_nav_zeroid img {width: 61px;margin-top: 1px;}
+
+	/* Solution/About section */
+	.brand_solution_slideshow_arrow {margin-top: 145px;}
+	.brand_insta_list {margin: 0 -20px; width: -webkit-calc(100% + 40px * 1); width: calc(100% + 40px * 1);}
+
+	.brand_social .brand_social_btn { width: 40px; height: 40px; margin: 0 5px; }
+	.brand_social .brand_social_btn:after { left: 0; top: -3px; }
+	html.ios .brand_social .brand_social_btn:after { left: 0px; }
+	html.ios .brand_social .brand_social_btn:after { top: -3px; }
+	html.ios .brand_social .brand_social_btn.brand_social_btn_youtube:after { top: -2px; }
+
+	/* Instagram section */
+    .brand_insta_list {margin: 0 -20px; width: -webkit-calc(100% + 40px * 1); width: calc(100% + 40px * 1);}
+	.brand_insta_list .slick-list {padding: 0 20px;}
+
+    /* Brand insta single */
+    .single-instagram .single_content { padding-bottom: 74px;}
+
+	.section_brand_solution h2 {margin-bottom:6px;}
+	.section_brand_solution em {font-size:15px;}
+
+	/* ITS SKIN */
+	/*
+	.sub_brand_itsskin .article_brand_header_inner {left: 20px;}
+	.sub_brand_flamel .article_brand_header_inner {left: 20px;}
+	.sub_brand_enature .article_brand_header_inner {left: 20px;}
+	.sub_brand_ics .article_brand_header_inner {left: 20px;}
+	.sub_brand_neopharm .article_brand_header_inner {left: 20px;}
+	*/
+
+	/* FLAMEL */
+	.sub_brand_flamel .section_brand_solution h2 {margin-bottom: 6px;}
+
+	.section_brand_enature_01 ol {width: -webkit-calc(100% + 40px * 1);width: calc(100% + 40px * 1); padding: 0 20px; margin: 0 -20px;}
+	.section_brand_enature_01 ol li {width: 230px;}
+
+	/* E NATURE */
+	.enature_mark_fsc img {height: 36px;}
+	.enature_mark_soy {top: -14px;}
+	.enature_mark_soy img {height: 49px;}
+	.enature_mark + .enature_mark {margin-left: 2px;}
+
+	/* NEOPHAM */
+	.section_brand_neopharm_item {margin-bottom: 80px;}
+	.brand_neopharm_banner {margin-bottom: 20px;}
+	.brand_neopharm_content_title .brand_social { margin-top: 18px; }
+	.brand_neopharm_content_title .brand_social { position: relative; top: auto; right: auto; margin-left: -5px; }
+	.brand_neopharm_content_txt {margin-top: 16px;}
+	.section_brand_neopharm_01 .brand_neopharm_content_txt .jt_point_btn,
+	.section_brand_neopharm_02 .brand_neopharm_content_txt .jt_point_btn,
+	.section_brand_neopharm_03 .brand_neopharm_content_txt .jt_point_btn,
+	.section_brand_neopharm_04 .brand_neopharm_content_txt .jt_point_btn {margin-top: 22px;}
+
+	/* FLAMEL */
+	/*.flamel_stap3_inner {padding-bottom: 60px;}
+	.flamel_stap3_inner li {width: 100%;margin-right: 0;text-align:left;border-bottom: 1px solid #ddd;padding-bottom: 17px;margin-bottom: 22px;}
+    .flamel_stap3_inner li:after {font-size:0;}
+    .flamel_stap3_inner li:last-child {margin-bottom: 0;padding-bottom: 0;border-bottom: 0;}
+    .flamel_stap_title {display: inline-block;width: 114px;}
+    .flamel_stap3_inner li b {white-space: normal;line-height: 1.1;font-size: 14px;}
+    .flamel_stap3_inner li span {font-size: 30px;padding-top: 0px;}
+    .flamel_stap3_inner li p {display:inline-block;width: calc(100% - 126px * 1);padding: 0;font-size: 15px;line-height: 1.6;vertical-align: top;margin-top: -2px;}*/
+
+	/* ATOPALM */
+	.section_brand_atopalm_02_img .lazy_img {padding-top: 89.2%;width: 100%;}
+	.section_brand_atopalm_03_inner {margin-top: 22px;}
+	.section_brand_atopalm_03_inner li {width:49%; margin-right:2%;}
+	.section_brand_atopalm_03_inner li:last-child {margin-right:0;}
+	.section_brand_atopalm_03_inner li p {font-size: 14px;word-break:keep-all;}
+	.page-template-brand-atopalm .mfp-image-holder button.mfp-close,
+	.page-template-brand-atopalm .mfp-iframe-holder button.mfp-close {width: 28px;height: 44px;top: -65px;}
+	.page-template-brand-atopalm .brand_solution_slideshow li figure {padding-top: 200px;}
+	.page-template-brand-atopalm .brand_solution_slideshow_arrow {margin-top: 75px;}
+	.section_brand_atopalm_01_img_circle {display:none;}
+
+	/* REAL BARRIER */
+	.section_brand_real_barrier_02_img .lazy_img {padding-top: 89.2%;width: 100%;}
+	.section_brand_real_barrier_03_inner {margin-top: 22px;}
+	.section_brand_real_barrier_03_inner li {width:49%; margin-right:2%;}
+	.section_brand_real_barrier_03_inner li:last-child {margin-right:0;}
+	.section_brand_real_barrier_03_inner li p {font-size:14px;word-break:keep-all;}
+
+	/* DERMA B */
+	.section_brand_derma_b_01 ol {width: -webkit-calc(100% + 40px * 1);width: calc(100% + 40px * 1); padding: 0 20px; margin: 0 -20px;}
+	.section_brand_derma_b_01 ol > li {width: 230px;}
+
+	/* ZEROID */
+	.section_brand_zeroid_01 ol {width: -webkit-calc(100% + 40px * 1);width: calc(100% + 40px * 1); padding: 0 20px; margin: 0 -20px;}
+	.section_brand_zeroid_01 ol > li {width: 230px;}
+}
+
+
+
+/* **************************************** *
+ * 500px
+ * **************************************** */
+@media (max-width: 500px){
+
+	/* FLAMEL */
+	.flamel_stap3_mark img {padding-left: 15.5%;padding-right: 4%;}
+
+}
+
+
+
+/* **************************************** *
+ * 325px
+ * **************************************** */
+@media (max-width: 325px){
+
+    /* FLAMEL */
+	.section_brand_flamel_sub_title_01 img:nth-child(2) {display:block; margin-bottom:3px;}
+
+	/* ICS */
+	.sub_brand_ics .brand_solution_slideshow {padding-bottom: 55px;}
+
+	/* DERMA B */
+	.page-template-brand-derma-b .brand_solution_slideshow {padding-bottom:25px;}
+
+}
+
+
+
+@media(max-width: 768px), (orientation: portrait){
+
+	.page-template-sub .main_visual_scroll_wrap {display: block;}
+}
+
+
+/* **************************************** *
+ * MIN WIDTH 1023px && HEIGHT 740px
+ * **************************************** */
+@media (min-width: 1023px) and (max-height: 780px){
+
+    .sub_brand_flamel .article_brand_header_inner img,
+    .sub_brand_itsskin .article_brand_header_inner img  { width: 410px; }
+
+} /* height 740px */
+
+
+
+
+/* **************************************** *
+ * MIN WIDTH 1023px && HEIGHT 680px (MAC 13")
+ * **************************************** */
+@media (min-width: 1023px) and (max-height: 680px){
+
+    .show_brand_sticky .brand_sticky_nav{ top: 70px;}
+    .brand_sticky_nav a { height: 60px; }
+    .brand_sticky_nav a img { -webkit-transform: translate(-50%, -50%) scale(0.9); -ms-transform: translate(-50%, -50%) scale(0.9); transform: translate(-50%, -50%) scale(0.9); }
+
+    .article_brand_header_inner img { -webkit-transform: scale(0.85); -webkit-transform-origin: left center;-ms-transform: scale(0.85); -ms-transform-origin: left center;transform: scale(0.85); transform-origin: left center;}
+
+}
+
+
+/* **************************************** *
+ * HEIGHT 560px
+ * **************************************** */
+@media (max-height: 560px){
+
+    /* GLOBAL */
+    .article_brand .main_visual_scroll_wrap {bottom: 9px;}
+
+    .sub_brand_enature .article_brand_header_inner,
+    .sub_brand_flamel .article_brand_header_inner,
+    .sub_brand_ics .article_brand_header_inner,
+    .sub_brand_neopharm .article_brand_header_inner { bottom: 100px;}
+
+    /* ITSSKIN */
+    .sub_brand_itsskin .article_brand_header_inner { bottom: 95px;}
+
+    /* ENATURE */
+    .sub_brand_enature .article_brand_header_inner h1 { height: 40px;}
+
+}

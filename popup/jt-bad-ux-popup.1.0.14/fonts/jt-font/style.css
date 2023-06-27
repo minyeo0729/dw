@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'jt-font';
+  src:  url('fonts/jt-font.eot?37f790');
+  src:  url('fonts/jt-font.eot?37f790#iefix') format('embedded-opentype'),
+    url('fonts/jt-font.ttf?37f790') format('truetype'),
+    url('fonts/jt-font.woff?37f790') format('woff'),
+    url('fonts/jt-font.svg?37f790#jt-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="jt-"], [class*=" jt-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jt-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jt-icon-setting:before {
+  content: "\e900";
+}
+.jt-icon-preview:before {
+  content: "\e901";
+}
+.jt-icon-pencil:before {
+  content: "\e902";
+}
+.jt-icon-delete:before {
+  content: "\e903";
+}
+.jt-icon-plus:before {
+  content: "\e904";
+}
+.jt-icon-question:before {
+  content: "\e905";
+}
+.jt-icon-undo:before {
+  content: "\e906";
+}
+.jt-icon-calendar:before {
+  content: "\e907";
+}
+.jt-icon-search:before {
+  content: "\e908";
+}
+.jt-icon-check:before {
+  content: "\e909";
+}
+.jt-icon-arrow-down:before {
+  content: "\e90a";
+}
+.jt-icon-arrow-right:before {
+  content: "\e90b";
+}
+.jt-icon-arrow-up:before {
+  content: "\e90c";
+}
+.jt-icon-arrow-left:before {
+  content: "\e90d";
+}

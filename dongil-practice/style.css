@@ -1,0 +1,59 @@
+* { padding: 0; margin: 0; box-sizing: border-box; } 
+html { font-size: 6.25%; } 
+body { font-size: 16rem; } 
+ol, li { list-style: none; } 
+a { text-decoration: none; color: #000; } 
+
+figure { display: block; } 
+.wrap { max-width: 1520rem; margin: 0 auto; margin-top: 160rem; margin-bottom: 100rem; } 
+.now-di-single__section { position: relative; } 
+.now-di-single__subtitle { margin-bottom: 17rem; font-size: 16rem; font-weight: 700; color: #ab8800; display: block; } 
+body.lang-ko .now-di-single__title { font-size: 52rem; font-weight: 700; letter-spacing: -0.025em; } 
+.now-di-single__desc { max-width: 1000rem; margin-top: 30rem; font-size: 22rem; font-weight: 400; line-height: 1.75; letter-spacing: -1rem; } 
+.now-di--ritzcarlton .section-type__basic .now-di-single__img.grid-col-1 { margin-left: 0; margin-right: 0; } 
+.now-di-single__img { margin-top: 80rem; } 
+.now-di-single__img img { display: block; max-width: 100%; width: 100%; } 
+.now-di-single__img + .now-di-single__slideshow { margin-top: 80rem; } 
+.now-di-single__row.row-col-2 { display: flex; gap: 40rem; font-size: 0; } 
+.now-di-single__row.row-col-3 { display: flex; gap: 40rem; font-size: 0; } 
+.now-di--oceanhills .now-di-single__row:not(.now-di--oceanhills-pin) { margin-top: 80rem; } 
+.now-di-single__row.row-col-2 .now-di-single__row-item { width: calc((100% - 40rem) / 2); } 
+.now-di-single__row-item .now-di-single__row-item:first-child { margin-top: 0; } 
+.now-di-single__row-item .now-di-single__row-item:last-child { margin-bottom: 0; } 
+.now-di-single__title { font-size: 52rem; letter-spacing: -0.025em; position: relative; } 
+
+/* minyeo added */
+
+/* hover */
+.section-type__hover .now-di-single__title > span { opacity: 0; } 
+.section-type__hover .now-di-single__title > span:not(:first-child) { width: 100%; position: absolute; left: 0; top: 0; } 
+.section-type__hover .now-di-single__title > span.show { opacity: 1; } 
+.section-type__hover .now-di-single__row-item { cursor: pointer; opacity: 0.3; transition: all 0.3s; } 
+.section-type__hover .now-di-single__row-item.noneopacity { opacity: 1; } 
+
+/* grid */
+
+.now-di--oceanhills-view-item:not(:first-child) { opacity: 0; /* visibility: hidden; */} /* temp for dev */
+.now-di--oceanhills-view--scene .now-di--oceanhills-view-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 25rem; } 
+.now-di--oceanhills-view--location .now-di--oceanhills-view-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 25rem; } 
+.now-di--oceanhills-view-item.same .now-di--oceanhills-view-grid  { display: grid; grid-template-rows: 1fr 1fr; gap: 25rem; } 
+.now-di--oceanhills-view--bosco .now-di--oceanhills-view-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 25rem; } 
+.now-di--oceanhills-view-grid-span { grid-column: 1 / 3; } 
+
+.now-di--oceanhills-view-inner{position: relative;}
+.now-di--oceanhills-view-item{position: absolute; width: 100%; left: 0; top: 0;}
+.now-di--oceanhills .now-di-single__row:not(.now-di--oceanhills-pin) { margin-top: 80rem; } 
+.now-di--oceanhills-pin{padding-top: 80rem;}
+
+
+
+.empty{width: 100%; height: 500px;}
+
+/* flex 3개면 33.3% 2개면 50% 너비값정해주기 */
+/* 자연과 호흡하는 컨셉 디자인 */
+.now-di-oceanhills--concept {display: flex; gap: 40rem;}
+.now-di-oceanhills__column-item:first-child {padding-bottom: 135rem; }
+.now-di-oceanhills__column-item{position: relative;}
+.now-di-oceanhills__column-item:first-child:after{ content: 'ㅜ'; font-size: 30rem; color: #999; position: absolute; bottom: 68rem; left: 50%; margin-left: -15rem; /* font-family: 'jt-font';
+    content: '\e91b'; */}
+.now-di-oceanhills--concept-slide .now-di-oceanhills__column-item{width: calc(100% - 480rem);}/* necessary? */

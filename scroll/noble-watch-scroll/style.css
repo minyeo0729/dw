@@ -1,0 +1,38 @@
+ /* overflow: auto 안하면 스크롤 안생김  */
+ .visible-scrollbar{ display: block;
+    width: 10em;
+    overflow: auto;
+    height: 500px;}
+.invisible-scrollbar,
+.mostly-customized-scrollbar {
+    display: block;
+    width: 10em;
+    overflow: auto;
+    height: 50px;
+}
+.mostly-customized-scrollbar {height: 500px;}
+.invisible-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Demonstrate a "mostly customized" scrollbar
+* (won't be visible otherwise if width/height is specified) */
+.mostly-customized-scrollbar::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #aaa;
+    overflow-x: hidden;
+    /* or add it to the track */
+}
+
+/* Add a thumb */
+.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+    background: #000;
+}
+.wrap{display: flex; gap: 50em;}
+
+
+/* overflow: auto; -ms-scroll-chaining: none; overscroll-behavior: none; overflow-x: visible; */
+
+/* overscroll-behavior: contain = prevent crolling of the background article untill
+your mouse leaves the container  */

@@ -1,0 +1,125 @@
+/*
+ * Font         : NotoSansCJKkr-hinted, JT-FONT
+ * License      :
+ * Subset Maker : Studio-jt (SUMI)
+ * Version      : 1.0.0
+ * description  :
+ */
+
+
+
+/* ************************************** *
+ * NotoSansCJKkr-hinted
+ * ************************************** */
+@font-face {
+    font-family:'NotoSansKR';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Regular.eot);
+    src: local("?"),
+         url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Regular.woff) format('woff'),
+         url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:'NotoSansKR';
+    font-style: normal;
+    font-weight: 200;
+    src: url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-DemiLight.eot);
+    src: local("?"),
+         url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-DemiLight.woff) format('woff'),
+         url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-DemiLight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:'NotoSansKR';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Light.eot);
+    src: local("?"),
+         url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Light.woff) format('woff'),
+         url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:'NotoSansKR';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Medium.eot);
+    src: local("?"),
+         url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Medium.woff) format('woff'),
+         url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:'NotoSansKR';
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Bold.eot);
+    src: local("?"),
+         url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Bold.woff) format('woff'),
+         url(../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Bold.ttf) format('truetype');
+}
+
+
+/* ************************************** *
+ * GOTHAM
+ * ************************************** */
+@font-face{
+     font-family: 'Gotham';
+     font-style: normal;
+     font-weight: 100;
+     src: url('../fonts/Gotham/GothamExLight.eot');
+     src: local('※'),
+          url('../fonts/Gotham/GothamExLight.woff') format('woff'),
+          url('../fonts/Gotham/GothamExLight.otf') format('opentype');
+ }
+@font-face{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Gotham/GothamBook.eot');
+    src: local('※'),
+        url('../fonts/Gotham/GothamBook.woff') format('woff'),
+        url('../fonts/Gotham/GothamBook.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Gotham-v2/GothamMedium.eot');
+    src: local('※'),
+        url('../fonts/Gotham-v2/GothamMedium.woff') format('woff'),
+        url('../fonts/Gotham-v2/GothamMedium.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/Gotham/Gotham-Bold.eot');
+    src: local('※'),
+         url('../fonts/Gotham/Gotham-Bold.woff') format('woff'),
+         url('../fonts/Gotham/Gotham-Bold.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/Gotham/Gotham-Black.eot');
+    src: local('※'),
+         url('../fonts/Gotham/Gotham-Black.woff') format('woff'),
+         url('../fonts/Gotham/Gotham-Black.otf') format('opentype');
+}
+
+
+/* ************************************** *
+ * JT-FONT
+ * ************************************** */
+@font-face {
+    font-family:'jt-font';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/jt-font/fonts/jt-font.eot);
+    src: local("?"),
+         url(../fonts/jt-font/fonts/jt-font.woff) format('woff');
+}

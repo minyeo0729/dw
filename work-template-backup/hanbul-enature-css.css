@@ -1,0 +1,63 @@
+/* **************************************** *
+ * ENATURE
+ * **************************************** */
+
+.sub_brand_enature .article_brand_header { background-color:#282828; background-image:url(../images/brand/enature-main-visual-v1.1.jpg)}
+.sub_brand_enature .article_brand_header_inner {margin-top: -27px;left: 13.2%;}
+.sub_brand_enature .scroll_down > span {color: #fff; font-weight: 500;}
+.sub_brand_enature .scroll_down_arrow:after {color: #fff;}
+.sub_brand_enature .brand_social{ padding-bottom:110px}
+
+.enature_brand_body_header_img { max-width:1000px; margin:auto}
+.enature_brand_body_header_img figure {padding-top: 20.9%;position: relative;margin: auto;margin-bottom: 71px;margin-top: -3px;}
+.enature_brand_body_header_img img { position: absolute; top: 0;left: 0; text-align:center; width:100%}
+.enature_brand_body_header_img figure img {border: 3px solid #ddd;padding: 5% 9% 5.5%;}
+
+.section_brand_enature_01 h2,
+.section_brand_enature_02 h2 {font-size: 45px;font-weight: 300;margin-left: -6px;margin-bottom: 62px;line-height: 1.3em;letter-spacing: -0.01em;}
+.section_brand_enature_01 em,
+.section_brand_enature_02 em {font-size: 20px; font-weight: 300; margin-bottom: 30px; display: block;letter-spacing: 0.05em;}
+
+.sub_brand_enature .section_brand_solution em{letter-spacing:normal;font-weight:400;color: #666;margin-bottom: 76px;}
+.sub_brand_enature .brand_solution_slideshow_item_01 .brand_solution_slideshow_content {background: #666666;}
+
+.section_brand_enature_01_container {position: relative;margin-bottom: 158px;}
+.section_brand_enature_01_container:after { content: ""; display: table; clear: both; }
+.section_brand_enature_01 { float: left; width: 100%; position: relative; }
+.section_brand_enature_01 ol{margin: 0 -20px;}
+.section_brand_enature_01 ol li { float: left; width: 33.33%; }
+.section_brand_enature_step figure {padding-top: 73%;}
+.section_brand_enature_step {margin: 0 20px;max-width: 480px;}
+.section_brand_enature_step_content {background: #fff;padding: 40px 40px 35px;}
+.section_brand_enature_step_content h3{margin-top: -6px;margin-bottom: 10px;letter-spacing: -0.01em;font-size: 20px; font-weight: 600;}
+
+ /*
+.section_brand_enature_02 { clear: both; display: table; width: 100%; margin-bottom:120px }
+.section_brand_enature_02_txt_circle.circular_motion {width: 473px;position: absolute;bottom: -211px;left: -244px;}
+.section_brand_enature_02_txt,
+.section_brand_enature_02_img { display: table-cell; vertical-align: middle; width: 50%; position:relative; }
+.section_brand_enature_02_img figure { padding-top: 83.6%; width: 100%; }
+.section_brand_enature_02_img figure { max-width: 610px; float: right; }
+.section_brand_enature_02_img_picto{position: absolute;bottom: -44px;left: 73.9%;width: 100%;}
+.section_brand_enature_02 h2 {margin-bottom: 24px;margin-left: -6px;}
+.section_brand_enature_02_txt_inner {padding-left: 130px;position: relative;top: 7px;}
+.section_brand_enature_02_txt_inner li{padding-left:25px;padding-bottom: 11px;background: url(../images/brand/enature-leaf.svg) no-repeat left 6px;color: #666;letter-spacing: -0.01em;}
+.section_brand_enature_02_txt_inner li strong {font-weight: 600;color: #444; position: relative;left: -2px;}
+
+.section_brand_enature_03 {clear: both;display: table;width: 100%;margin-bottom: 190px;}
+.section_brand_enature_03 h3{font-size:20px;font-weight: 600;margin-top: 17px;margin-bottom: 4px;color: #222;}
+.section_brand_enature_03_img,
+.section_brand_enature_03_txt {display: table-cell;width:50%;vertical-align: middle;}
+.section_brand_enature_03_txt_inner{margin-left:20px;position: relative;top: 8px;}
+.section_brand_enature_03_img .lazy_img {padding-top: 82.2%;max-width: 480px;margin-left: 130px;}
+.enature_mark {display: inline-block;position: relative;margin-right: 17px;}
+.enature_mark_fsc {top: -8px;}
+.enature_mark_soy {top: -16px;}
+*/
+.sub_brand_enature .brand_solution_slideshow_content h3 span b {position:relative;font-weight: 300;padding-right: 27px;}
+.sub_brand_enature .brand_solution_slideshow_content h3 span b:after {content:'™';position:absolute;top: 6px;font-size: 30px;}
+
+.sub_brand_enature .brand_solution_slideshow_item_01 .brand_solution_slideshow_content {background: #c6c537;}
+.sub_brand_enature .brand_solution_slideshow_item_02 .brand_solution_slideshow_content { background: #008f85;}
+.sub_brand_enature .brand_solution_slideshow_item_03 .brand_solution_slideshow_content {background: #e491af;}
+.sub_brand_enature .brand_solution_slideshow_item_04 .brand_solution_slideshow_content { background: #49bbc7;}

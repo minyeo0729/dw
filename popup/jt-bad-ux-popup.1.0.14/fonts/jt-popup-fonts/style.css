@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'jt-popup-fonts';
+  src:  url('fonts/jt-popup-fonts.eot?d4b51n');
+  src:  url('fonts/jt-popup-fonts.eot?d4b51n#iefix') format('embedded-opentype'),
+    url('fonts/jt-popup-fonts.ttf?d4b51n') format('truetype'),
+    url('fonts/jt-popup-fonts.woff?d4b51n') format('woff'),
+    url('fonts/jt-popup-fonts.svg?d4b51n#jt-popup-fonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="jt-"], [class*=" jt-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jt-popup-fonts' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jt-close:before {
+  content: "\e900";
+}

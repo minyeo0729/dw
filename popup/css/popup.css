@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+ * File       : popup.css
+ * Author     : STUDIO-JT (MINYEO)
+ * Guideline  : JTstyle.2.1
+ *
+ * SUMMARY:
+ * 01) Popup
+ * 02) Slider
+ */
+
+
+
+/* **************************************** *
+ * Popup
+ * **************************************** */
+#jt_bottom_popup_container { font-family: 'SF Pro KR', 'SF Pro Text', 'Apple Gothic', 'Malgun Gothic', 'HY Dotum', 'Dotum', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; font-size: 16px; }
+.jt_bottom_popup_overlay { position: fixed; top: 0px; left: 0px; z-index: 10000;  width: 100%; height: 100%; background: rgba(0, 0, 0, 0.55); }
+.jt_bottom_popup_wrap { position: fixed; left: 0; bottom: 0; z-index: 10000; width: 100%; overflow: hidden; }
+
+.jt_bottom_popup_inner { width: 100%; margin: 0 auto; }
+.jt_bottom_popup_inner img { display: block; width: 100%; height: auto; border-radius: 20px 20px 0px 0px; }
+.jt_bottom_popup_inner a { font-weight: bold; text-decoration: none; }
+
+.jt_bottom_popup_controller { position: relative; padding: 0 14px 8px 14px; }
+.jt_bottom_popup_controller .jt_bottom_popup_notoday { display: inline-block; position: relative; padding: 6px 0 6px 22px; color: #ddd; }
+.jt_bottom_popup_controller .jt_bottom_popup_notoday::before { content: ''; position: absolute; top: 50%; left: 0; width: 16px; height: 13px; transform: translateY(-50%); background: url(../img/notoday-icon.svg) no-repeat; margin-left: 2px;}
+.jt_bottom_popup_controller .jt_bottom_popup_close { display: inline-block; position: absolute; top: 0; right: 15px; color: #fff; padding: 6px 0; }
+
+.jt_bottom_popup_item{ position: relative;}
+.jt_bottom_popup_item:after { content: ''; position: absolute; left: 0; top:0; width: 100%; height: 100%; background: linear-gradient(360deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 49.82%); }
+
+
+
+/* **************************************** *
+ * Slider
+ * **************************************** */
+#jt_bottom_popup_container .slick-dots { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 2; padding:0; margin: 0; font-size: 0; }
+#jt_bottom_popup_container .slick-dots > li { display: inline-block; width: 8px; height: 8px; vertical-align: middle; margin: 0 8px; background: #fff; border-radius: 10px; opacity: 0.5; }
+#jt_bottom_popup_container .slick-dots > li:first-child { margin-left: 0; }
+#jt_bottom_popup_container .slick-dots > li:last-child { margin-right: 0; }
+#jt_bottom_popup_container .slick-dots > li.slick-active { opacity: 1; }
+#jt_bottom_popup_container .slick-dots > li > button { display: none; }

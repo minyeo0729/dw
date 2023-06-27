@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/*
+ * File       : rwd-layout.css
+ * Author     : STUDIO-JT (MINYEO)
+ * Guideline  : JTstyle.2.1
+ * Dependency : css/popup.css
+ *
+ * SUMMARY:
+ * 01)
+ */
+
+
+
+/* **************************************** *
+ * 540px
+ * **************************************** */
+@media (min-width: 540px) {
+    .jt_bottom_popup_inner { max-width: 428px; }
+}
+/* @media (min-width: 1024px) {
+    .jt_bottom_popup_inner { max-width: 1024px; }
+} */
+/* @media (min-width: 1366px) {
+    .jt_bottom_popup_inner { max-width: 1366px;}
+} */

@@ -1,0 +1,53 @@
+.wrap{
+   padding-top: 100px;
+   overflow-x: hidden;
+  
+}
+.header{
+    padding: 10px 16px;
+    background: #555;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
+.content{
+    padding-top: 100px;
+}
+/* this class will be added to the header by js when it reaches from scrolling */
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+    max-width: 1820px;
+}
+/* make some room for sticky header situation */
+.sticky + .content{
+    padding-top: 102px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+li{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+li a{
+    color: #fff;
+}
+h2 a{
+    color: #fff;
+    padding-top: 92px;
+}
+.logo{
+    height: 92px;
+    font-size: 0;
+    
+}
